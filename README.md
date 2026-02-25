@@ -41,24 +41,27 @@ The backend acts as a secure proxy layer to protect API credentials and manage c
 ## 📁 Project Structure
 
 weather-app/
+├── client/                     # React Frontend
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Loader.jsx
+│   │   │   ├── FullScreenLoader.jsx
+│   │   │   └── WeatherCard.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   │
+│   │   ├── App.jsx
+│   │   └── App.css
+│   │
+│   └── package.json
 │
-├── client/ # React Frontend
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Loader.jsx
-│ │ │ ├── FullScreenLoader.jsx
-│ │ │ └── WeatherCard.jsx
-│ │ ├── services/
-│ │ │ └── api.js
-│ │ ├── App.jsx
-│ │ └── App.css
-│ └── package.json
-│
-├── server/ # Node + Express Backend
-│ ├── routes/
-│ │ └── weather.routes.js
-│ ├── server.js
-│ └── package.json
+├── server/                     # Node + Express Backend
+│   ├── routes/
+│   │   └── weather.routes.js
+│   │
+│   ├── server.js
+│   └── package.json
 │
 └── README.md
 
