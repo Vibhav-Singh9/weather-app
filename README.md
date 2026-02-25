@@ -39,7 +39,7 @@ The backend acts as a secure proxy layer to protect API credentials and manage c
 ---
 
 ## 📁 Project Structure
-
+```
 weather-app/
 ├── client/                     # React Frontend
 │   ├── src/
@@ -64,7 +64,7 @@ weather-app/
 │   └── package.json
 │
 └── README.md
-
+```
 ---
 
 ## ⚙️ Backend Setup
