@@ -7,12 +7,13 @@ dotenv.config();
 
 const app = express();
 
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://weather-app-g6yu.vercel.app"
+];
+
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://weather-app-g6yu.vercel.app/"
-  ],
-  credentials: true
+  origin: allowedOrigins
 }));
 
 app.use("/api/weather", weatherRoute);
