@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setColdStart(false);
-    }, 2500);
+    }, 1800);
   }, []);
 
   const handleSearch = async () => {
