@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    // "https://your-netlify-project.netlify.app"
+    "https://weather-app-g6yu.vercel.app/"
   ],
   credentials: true
 }));
